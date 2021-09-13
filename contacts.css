@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+html {
+    font-family: "Montserrat", Arial, sans-serif;
+}
+
+button {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+input,
+select,
+textarea {
+    color: #5a5a5a;
+    font: inherit;
+    margin: 0;
+}
+
+input {
+    line-height: normal;
+}
+
+textarea {
+    overflow: auto;
+}
+
+#container {
+    border: solid 3px #474544;
+    width: 700px;
+    margin: 60px auto;
+    position: relative;
+    border-radius: 20px;
+}
+
+form {
+    padding: 40px;
+    margin: 20px 0;
+    background-color: hsl(30, 45%, 96%, 0.5);
+}
+
+h1 {
+    color: #e36b00;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+.icon_wrapper {
+    margin: 16px auto 0;
+    width: 100%;
+}
+
+.icon {
+    display: block;
+    fill: #474544;
+    height: 100px;
+    margin: 0 auto;
+    width: auto;
+}
+
+.email {
+    float: right;
+    width: 45%;
+}
+
+input,
+select,
+textarea {
+    background: none;
+    border: none;
+    border-bottom: solid 2px #474544;
+    color: #474544;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0em 0 1.875em 0;
+    padding: 0 0 0.875em 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    padding: 0 0 0.9em 0;
+}
+
+.name {
+    float: left;
+    width: 45%;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.subject {
+    width: 100%;
+}
+
+.telephone {
+    width: 100%;
+}
+
+textarea {
+    line-height: 150%;
+    height: 150px;
+    resize: none;
+    width: 100%;
+}
+
+#form_button {
+    background: none;
+    border: solid 2px #474544;
+    color: #474544;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: bold;
+    outline: none;
+    padding: 20px 35px;
+}
+
+#form_button:hover {
+    background: #502b1f;
+    color: #f2f3eb;
+}
+
+.icon_wrapper {
+    margin: 50px auto 0;
+    width: 100%;
+}
+
+.error {
+    color: red;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#contactSent {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 100px;
+    color: #474544;
+    font-style: italic;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}

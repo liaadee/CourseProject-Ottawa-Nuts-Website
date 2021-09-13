@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Salam, Kal, Lia, Saif">
+    <meta name="email" content="alre0017@algonquinlive.com, abdu0469@algonquinlive.com, deng0046@algonquinlive.com">
+    <!--please add your email-->
+    <title>Ottawa Coffee | Home Page</title>
+    <link rel="stylesheet" href="bg.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="contacts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img id="logo" src="images/Logo.svg" alt="Ottawa Coffee Logo">
+            </a>
+            <div class="mm">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="products.html">Products</a>
+                <a href="contacts.html">Contact</a>
+                <a href="#"></a><img id="cart" src="images/cart.svg" alt="cart icon">
+                <a href="#"></a><img id="signin" src="images/sign-in.svg" alt="sign-in icon">
+            </div>
+        </nav>
+
+    </header>
+    <section>
+        <div id="container">
+            <h1>&bull; KEEP IN TOUCH &bull;</h1>
+            <div class="icon_wrapper">
+                <img class="icon" src="./images/coffee.png">
+            </div>
+            <form action="contactSubmitted.html" method="GET" id="contact_form" onsubmit="validate">
+                <div class="name input-container">
+                    <div class="error" id="nameError"></div>
+                    <label for="name"></label>
+                    <input type="text" placeholder="My name is" name="name" id="name_input" onchange="validateElement(this)">
+                </div>
+                <div class="email input-container">
+                    <div class="error" id="emailError"></div>
+                    <label for="email"></label>
+                    <input type="email" placeholder="My e-mail is" name="email" id="email_input" onchange="validateElement(this)">
+                </div>
+                <div class="telephone input-container">
+                    <label for="telephone"></label>
+                    <div class="error" id="telephoneError"></div>
+                    <input type="text" placeholder="My phone number is" name="telephone" id="telephone_input" onchange="validateElement(this)">
+                </div>
+                <div class="subject input-container">
+                    <label for="subject"></label>
+                    <div class="error" id="subjectError"></div>
+                    <select placeholder="Subject line" name="subject" id="subject_input" onchange="validateElement(this)">
+                        <option disabled hidden selected>Subject line</option>
+                        <option>I'd like to ask a question about shipping</option>
+                        <option>I'd like to ask a question about a product</option>
+                        <option>I'd like to ask a question about store policy</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="message input-container">
+                    <label for="message"></label>
+                    <div class="error" id="messageError"></div>
+                    <textarea name="message" placeholder="Enter your enquiries here." id="message_input" cols="30" rows="5" onchange="validateElement(this)"></textarea>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Send Message" id="form_button" />
+                </div>
+                <div id="contactSubmitted">
+
+                </div>
+            </form>
+        </div>
+
+    </section>
+    <div class="page-bottom">
+        <footer>
+            <div class='fc-container'>
+                <img src="images/Coffee_cup_icon.svg" alt="Cofee cup image">
+                <span class="footer-copyright">&copy; Ottawa Coffee. All Rights Reserved.</span>
+            </div>
+            <img class="mid-logo" src="images/mid-logo1.png">
+            <div class="footer-links">
+                <span class="footer-contact">Share Your Experience With Us</span>
+                <span class="footer-contact-separator"> | </span>
+                <div class="fa-container">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script type="text/javascript" src="contacts.js"></script>
+
+</html>

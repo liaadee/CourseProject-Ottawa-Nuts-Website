@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Salam, Kal, Lia, Saif">
+    <meta name="email" content="alre0017@algonquinlive.com, abdu0469@algonquinlive.com, deng0046@algonquinlive.com">
+    <!--please add your email-->
+    <title>Ottawa Coffee | Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <a href="index.html">
+                <img id="logo" src="images/Logo.svg" alt="Ottawa Coffee Logo">
+            </a>
+            <div class="mm">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="products.html">Products</a>
+                <a href="contacts.html">Contact</a>
+                <a href="#"></a><img id="cart" src="images/cart.svg" alt="cart icon">
+                <a href="#"></a><img id="signin" src="images/sign-in.svg" alt="sign-in icon">
+            </div>
+        </nav>
+
+    </header>
+
+    <section>
+
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('coffee')"> Coffee</button>
+            <button class="btn" onclick="filterSelection('roastednuts')"> Roasted Nuts</button>
+            <button class="btn" onclick="filterSelection('rawnuts')"> Raw Nuts</button>
+            <button class="btn" onclick="filterSelection('snacks')"> Snacks</button>
+            <button class="btn" onclick="filterSelection('dryfruits')"> Dry Fruits</button>
+            <button class="btn" onclick="filterSelection('candies')"> Candies</button>
+        </div>
+
+        <!-- Coffee -->
+        <div class="row">
+            <div class="column coffee">
+                <div class="content">
+                    <img src="Products/1-Coffee-Cardamom/1-Light-Saudi-Coffee.jpg" alt="Light-Saudi-Coffee" style="width:100%">
+                    <h4>Light Saudi Coffee</h4>
+                    <button class="button-small" onclick="document.location='product-1.html'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column coffee">
+                <div class="content">
+                    <img src="Products/1-Coffee-Cardamom/2-Light-Arabic-Coffee.jpg" alt="Light-Arabic-Coffee" style="width:100%">
+                    <h4>Light Arabic Coffee</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column coffee">
+                <div class="content">
+                    <img src="Products/1-Coffee-Cardamom/3-Light-Medium-Coffee.jpg" alt="Light-Medium-Coffee" style="width:100%">
+                    <h4>Light Medium Coffee</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="column coffee">
+                <div class="content">
+                    <img src="Products/1-Coffee-Cardamom/4-Medium-Coffee.jpg" alt="Medium-Coffee" style="width:100%">
+                    <h4>Medium Coffee</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column coffee">
+                <div class="content">
+                    <img src="Products/1-Coffee-Cardamom/5-Dark-Black-Coffee.jpg" alt="Dark-Black-Coffee" style="width:100%">
+                    <h4>Dark Black Coffee</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column coffee">
+                <div class="content">
+                    <img src="Products/1-Coffee-Cardamom/6-Raw-Green-Cardamom.jpg" alt="Raw-Green-Cardamom" style="width:100%">
+                    <h4>Raw Green Cardamom</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="column coffee">
+                <div class="content">
+                    <img src="Products/1-Coffee-Cardamom/7-Roasted-Cardamom.jpg" alt="Roasted-Cardamom" style="width:100%">
+                    <h4>Roasted Cardamom</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column coffee">
+                <div class="content">
+                    <img src="Products/1-Coffee-Cardamom/8-Cardamom-Powder.jpg" alt="Cardamom-Powder" style="width:100%">
+                    <h4>Cardamom Powder</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <!-- Roasted Nuts -->
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/1-Akbari-Salted-Pistachio.jpg" alt="Akbari Salted Pistachio" style="width:100%">
+                    <h4>Akbari-Salted-Pistachio</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/2-Akbari-Lemon-Pistachio.jpg" alt="Akbari-Lemon-Pistachio" style="width:100%">
+                    <h4>Akbari Lemon Pistachio</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/3-Akbari-Light-salt-Pistachio.jpg" alt="Akbari-Light-salt-Pistachio" style="width:100%">
+                    <h4>Akbari Light salt Pistachio</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/4-Akbari-Smoked-Pistachio.jpg" alt="Akbari-Smoked-Pistachio" style="width:100%">
+                    <h4>Akbari Smoked Pistachio</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/5-Kharufi-Salted-Pistachio.jpg" alt="Kharufi-Salted-Pistachio" style="width:100%">
+                    <h4>Kharufi Salted Pistachio</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/6-Kharufi-Lemon-Pistachio.jpg" alt="Kharufi-Lemon-Pistachio" style="width:100%">
+                    <h4>Kharufi Lemon Pistachio</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/7-Kharufi-Light-salt-Pistachio.jpg" alt="Kharufi-Light-salt-Pistachio" style="width:100%">
+                    <h4>Kharufi Light salt Pistachio</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/8-Kharufi-Smoked-Pistachio.jpg" alt="Kharufi-Smoked-Pistachio" style="width:100%">
+                    <h4>Kharufi Smoked Pistachio</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/9-Salted-Cashews.jpg" alt="Salted-Cashews" style="width:100%">
+                    <h4>Salted Cashews</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/10-Chilli-Cashews.jpg" alt="Chilli-Cashews" style="width:100%">
+                    <h4>Chilli Cashews</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/11-Cheesy-Cashews.jpg" alt="Cheesy-Cashews" style="width:100%">
+                    <h4>Cheesy Cashews</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/12-Smoked-Cashews.jpg" alt="Smoked-Cashews" style="width:100%">
+                    <h4>Smoked Cashews</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/13-Mix-Spices-Cashews.jpg" alt="Mix-Spices-Cashews" style="width:100%">
+                    <h4>Mix Spices Cashews</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/14-Kri-Kri-Cheesy-Cashews.jpg" alt="Kri-Kri-Cheesy-Cashews" style="width:100%">
+                    <h4>Kri Kri Cheesy Cashews</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/15-Kri-Kri-Smoked-Cashews.jpg" alt="Kri-Kri-Smoked-Cashews" style="width:100%">
+                    <h4>Kri Kri Smoked Cashews</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/16-Honey-Cashews.jpg" alt="Honey-Cashews" style="width:100%">
+                    <h4>Honey Cashews</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/17-Salted-Almonds.jpg" alt="Salted-Almonds" style="width:100%">
+                    <h4>Salted Almonds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/18-Lemon-Almonds.jpg" alt="Lemon-Almonds" style="width:100%">
+                    <h4>Lemon Almonds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/19-Roasted-Light-salt-Almonds.jpg" alt="Roasted-Light-salt-Almonds" style="width:100%">
+                    <h4>Roasted Light salt Almonds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/20-Smoked-Almonds.jpg" alt="Smoked-Almonds" style="width:100%">
+                    <h4>Smoked Almonds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/21-Mix-Spices-Almonds.jpg" alt="Mix-Spices-Almonds" style="width:100%">
+                    <h4>Mix Spices Almonds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/22-Honey-Almonds.jpg" alt="Honey-Almonds" style="width:100%">
+                    <h4>Honey Almonds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/23-Roasted-Almonds-with-Shell.jpg" alt="Roasted-Almonds-with-Shell" style="width:100%">
+                    <h4>Roasted Almonds with Shell</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/24-Roasted-Hazelnuts.jpg" alt="Roasted-Hazelnuts" style="width:100%">
+                    <h4>Roasted Hazelnuts</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/25-Roasted-Brazilian-Nut.jpg" alt="Roasted-Brazilian-Nut" style="width:100%">
+                    <h4>Roasted Brazilian Nut</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/26-Salted-Macademia.jpg" alt="Salted-Macademia" style="width:100%">
+                    <h4>Salted Macademia</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/27-Cheesy-Macademia.jpg" alt="Cheesy-Macademia" style="width:100%">
+                    <h4>Cheesy Macademia</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/28-Smoked-Macademia.jpg" alt="Smoked-Macademia" style="width:100%">
+                    <h4>Smoked Macademia</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/29-Light-Salt-Peanuts.jpg" alt="Light-Salt-Peanuts" style="width:100%">
+                    <h4>Light Salt Peanuts</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/30-Salted-Peanuts.jpg" alt="Salted-Peanuts" style="width:100%">
+                    <h4>Salted Peanuts</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/31-Fried-Red-Peanuts.jpg" alt="Fried-Red-Peanuts" style="width:100%">
+                    <h4>Fried Red Peanuts</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/32-Peeled-White-peanuts.jpg" alt="Peeled-White-peanuts" style="width:100%">
+                    <h4>Peeled White peanuts</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/33-Mix-Spices-Peanuts.jpg" alt="Mix-Spices-Peanuts" style="width:100%">
+                    <h4>Mix Spices Peanuts</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/34-Coated-Kri-Kri-Peanuts.jpg" alt="Coated-Kri-Kri-Peanuts" style="width:100%">
+                    <h4>Coated Kri Kri Peanuts</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/35-Roasted-Peanuts-with-Shell.jpg" alt="Roasted-Peanuts-with-Shell" style="width:100%">
+                    <h4>Roasted Peanuts with Shell</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/36-Unsalted-Yellow-Chickpeas.jpg" alt="Unsalted-Yellow-Chickpeas" style="width:100%">
+                    <h4>Unsalted Yellow Chickpeas</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/37-Little-Salt-Yellow-Chickpeas.jpg" alt="Little-Salt-Yellow-Chickpeas" style="width:100%">
+                    <h4>Little Salt Yellow Chickpeas</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/38-Salted-White-Chickpeas.jpg" alt="Salted-White-Chickpeas" style="width:100%">
+                    <h4>Salted White Chickpeas</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/39-Coated-Istanbul-Chickpeas.jpg" alt="Coated-Istanbul-Chickpeas" style="width:100%">
+                    <h4>Coated Istanbul Chickpeas</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/40-Light-Salt-Pumkin-Seeds.jpg" alt="Light-Salt-Pumkin-Seeds" style="width:100%">
+                    <h4>Light Salt Pumkin Seeds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/41-Salted-Pumkin-Seeds.jpg" alt="Salted-Pumkin-Seeds" style="width:100%">
+                    <h4>Salted Pumkin Seeds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/42-Salted-Kousa-Seeds.jpg" alt="Salted-Kousa-Seeds" style="width:100%">
+                    <h4>Salted Kousa Seeds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/43-Lemon-Kousa-Seeds.jpg" alt="Lemon-Kousa-Seeds" style="width:100%">
+                    <h4>Lemon Kousa Seeds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/44-Lemon-Shammam-Seeds.jpg" alt="Lemon-Shammam-Seeds" style="width:100%">
+                    <h4>Lemon Shammam Seeds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/45-Iranian-Seeds.jpg" alt="Iranian-Seeds" style="width:100%">
+                    <h4>Iranian Seeds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/46-Sunflower-Seeds.jpg" alt="Sunflower-Seeds" style="width:100%">
+                    <h4>Sunflower Seeds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/47-Smoked-Sunflower-Seeds.jpg" alt="Smoked-Sunflower-Seeds" style="width:100%">
+                    <h4>Smoked Sunflower Seeds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/48-Turkish-Seeds.jpg" alt="Turkish-Seeds" style="width:100%">
+                    <h4>Turkish Seeds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/49-Egyption-Supper-Seeds.jpg" alt="Egyption-Supper-Seeds" style="width:100%">
+                    <h4>Egyption Supper Seeds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/50-Palestinian-Seeds.jpg" alt="Palestinian-Seeds" style="width:100%">
+                    <h4>Palestinian Seeds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column roastednuts">
+                <div class="content">
+                    <img src="Products/2-Roasted-Nuts/51-Black-Waterlemon-Seeds.jpg" alt="Black-Waterlemon-Seeds" style="width:100%">
+                    <h4>Black Waterlemon Seeds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <!-- Raw-Nuts -->
+            <div class="column rawnuts">
+                <div class="content">
+                    <img src="Products/3-Raw-Nuts/1-Raw-Cashews.jpg" alt="Raw-Cashews" style="width:100%">
+                    <h4>Raw Cashews</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column rawnuts">
+                <div class="content">
+                    <img src="Products/3-Raw-Nuts/2-Raw-Almonds.jpg" alt="Raw-Almonds" style="width:100%">
+                    <h4>Raw Almonds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column rawnuts">
+                <div class="content">
+                    <img src="Products/3-Raw-Nuts/3-Raw-Carmel-Almonds.jpg" alt="Raw-Carmel-Almonds" style="width:100%">
+                    <h4>Raw Carmel Almonds</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column rawnuts">
+                <div class="content">
+                    <img src="Products/3-Raw-Nuts/4-White-Almonds-Whole-Pieces.jpg" alt="White-Almonds-Whole-Pieces" style="width:100%">
+                    <h4>White Almonds Whole Pieces</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column rawnuts">
+                <div class="content">
+                    <img src="Products/3-Raw-Nuts/5-White-Almonds-Splits.jpg" alt="White-Almonds-Splits" style="width:100%">
+                    <h4>White Almonds Splits</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column rawnuts">
+                <div class="content">
+                    <img src="Products/3-Raw-Nuts/6-White-Almonds-Slivered.jpg" alt="White-Almonds-Slivered" style="width:100%">
+                    <h4>White Almonds Slivered</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column rawnuts">
+                <div class="content">
+                    <img src="Products/3-Raw-Nuts/7-American-Walnuts.jpg" alt="American-Walnuts" style="width:100%">
+                    <h4>American Walnuts</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column rawnuts">
+                <div class="content">
+                    <img src="Products/3-Raw-Nuts/8-Chile-Walnuts.jpg" alt="Chile-Walnuts" style="width:100%">
+                    <h4>Chile Walnuts</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column rawnuts">
+                <div class="content">
+                    <img src="Products/3-Raw-Nuts/9-Walnuts-With-Shell.jpg" alt="Walnuts-With-Shell" style="width:100%">
+                    <h4>Walnuts With Shell</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column rawnuts">
+                <div class="content">
+                    <img src="Products/3-Raw-Nuts/10-Raw-Pistachios-without-Shell.jpg" alt="Raw-Pistachios-without-Shell" style="width:100%">
+                    <h4>Raw Pistachios without Shell</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column rawnuts">
+                <div class="content">
+                    <img src="Products/3-Raw-Nuts/11-Sliced-Pistachios.jpg" alt="Sliced-Pistachios" style="width:100%">
+                    <h4>Sliced Pistachios</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column rawnuts">
+                <div class="content">
+                    <img src="Products/3-Raw-Nuts/12-Raw-Hazelnut.jpg" alt="Raw-Hazelnut" style="width:100%">
+                    <h4>Raw Hazelnut</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column rawnuts">
+                <div class="content">
+                    <img src="Products/3-Raw-Nuts/13-Raw-Pecan-Nuts.jpg" alt="Raw-Pecan-Nuts" style="width:100%">
+                    <h4>Raw Pecan Nuts</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column rawnuts">
+                <div class="content">
+                    <img src="Products/3-Raw-Nuts/14-Brazillian-Nut.jpg" alt="Brazillian-Nut" style="width:100%">
+                    <h4>Brazillian Nut</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column rawnuts">
+                <div class="content">
+                    <img src="Products/3-Raw-Nuts/15-Raw-Macademia.jpg" alt="Raw-Macademia" style="width:100%">
+                    <h4>Raw Macademia</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column rawnuts">
+                <div class="content">
+                    <img src="Products/3-Raw-Nuts/16-Raw-Pumkin-Kernel.jpg" alt="Raw-Pumkin-Kernel" style="width:100%">
+                    <h4>Raw Pumkin Kernel</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column rawnuts">
+                <div class="content">
+                    <img src="Products/3-Raw-Nuts/17-Raw-Sunflower-Kernel.jpg" alt="Raw-Sunflower-Kernel" style="width:100%">
+                    <h4>Raw Sunflower Kernel</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <!-- Snacks -->
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/1-Crunchy-Vegetables.jpg" alt="Crunchy-Vegetables" style="width:100%">
+                    <h4>Crunchy Vegetables</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/2-Crunchy-Fruits.jpg" alt="Crunchy-Fruits" style="width:100%">
+                    <h4>Crunchy Fruits</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/3-Chilli-Corn.jpg" alt="Chilli-Corn" style="width:100%">
+                    <h4>Chilli Corn</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/4-Cheesy-Corn.jpg" alt="Cheesy-Corn" style="width:100%">
+                    <h4>Cheesy Corn</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/5-Chinese-Coated-Kri-Kri-Peanuts.jpg" alt="Chinese-Coated-Kri-Kri-Peanuts" style="width:100%">
+                    <h4>Chinese Coated Kri Kri Peanuts</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/6-Thai-Rice-Crackers.jpg" alt="Thai-Rice-Crackers" style="width:100%">
+                    <h4>Thai Rice Crackers</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/7-Special-Rice-Crackers.jpg" alt="Special-Rice-Crackers" style="width:100%">
+                    <h4>Special Rice Crackers</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/8-Salted-Green-Peas.jpg" alt="Salted-Green-Peas" style="width:100%">
+                    <h4>Salted Green Peas</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/9-Coated-Green-Peas.jpg" alt="Coated-Green-Peas" style="width:100%">
+                    <h4>Coated Green Peas</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/10-Chilli-Coated-Green-Peas.jpg" alt="Chilli-Coated-Green-Peas" style="width:100%">
+                    <h4>Chilli Coated Green Peas</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/11-Peanuts-Cheese-Ball.jpg" alt="Peanuts-Cheese-Ball" style="width:100%">
+                    <h4>Peanuts Cheese Ball</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/12-Peanuts-Maxican-Ball.jpg" alt="Peanuts-Maxican-Ball" style="width:100%">
+                    <h4>Peanuts Maxican Ball</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/13-Mix-Spices-Kri-Kri-Peanuts.jpg" alt="Mix-Spices-Kri-Kri-Peanuts" style="width:100%">
+                    <h4>Mix Spices Kri-Kri Peanuts</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/14-Cheesy-Rice-Crackers.jpg" alt="Cheesy-Rice-Crackers" style="width:100%">
+                    <h4>Cheesy Rice Crackers</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/15-Chilli-Rice-Crackers.jpg" alt="Chilli-Rice-Crackers" style="width:100%">
+                    <h4>Chilli Rice Crackers</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/16-Cheesy-Rice-Crackers.jpg" alt="Cheesy-Rice-Crackers" style="width:100%">
+                    <h4>Cheesy Rice Crackers</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/17-Cheesy-Rice-Crackers.jpg" alt="Cheesy-Rice-Crackers" style="width:100%">
+                    <h4>Cheesy Rice Crackers</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/18-Cheesy-Rice-Crackers.jpg" alt="Cheesy-Rice-Crackers" style="width:100%">
+                    <h4>Cheesy Rice Crackers</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/19-Chilli-Home-Snack.jpg" alt="Chilli-Home-Snack" style="width:100%">
+                    <h4>Chilli Home Snack</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/20-BBQ-Home-Snack.jpg" alt="BBQ-Home-Snack" style="width:100%">
+                    <h4>BBQ Home Snack</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/21-Satay-Broad-Beans.jpg" alt="Satay-Broad-Beans" style="width:100%">
+                    <h4>Satay Broad Beans</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column snacks">
+                <div class="content">
+                    <img src="Products/4-Snacks/22-Satay-Chickpeas.jpg" alt="Satay-Chickpeas" style="width:100%">
+                    <h4>Satay Chickpeas</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <!-- Dry Fruits -->
+            <div class="column dryfruits">
+                <div class="content">
+                    <img src="Products/5-Dry-Fruits/1-Golden-Small-Raisins.jpg" alt="Golden-Small-Raisins" style="width:100%">
+                    <h4>Golden Small Raisins</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column dryfruits">
+                <div class="content">
+                    <img src="Products/5-Dry-Fruits/2-Golden-Jumbo-Raisins.jpg" alt="Golden-Jumbo-Raisins" style="width:100%">
+                    <h4>Golden Jumbo-Raisins</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column dryfruits">
+                <div class="content">
+                    <img src="Products/5-Dry-Fruits/3-Black-Small-Raisins.jpg" alt="Black-Small-Raisins" style="width:100%">
+                    <h4>Black Small Raisins</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column dryfruits">
+                <div class="content">
+                    <img src="Products/5-Dry-Fruits/4-Black-Jumbo-Raisins.jpg" alt="Black-Jumbo-Raisins" style="width:100%">
+                    <h4>Black Jumbo Raisins</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column dryfruits">
+                <div class="content">
+                    <img src="Products/5-Dry-Fruits/5-Green-Raisins.jpg" alt="Green-Raisins" style="width:100%">
+                    <h4>Green Raisins</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <!-- candies -->
+            <div class="column candies">
+                <div class="content">
+                    <img src="Products/6-Candies/1-Chickpeas.jpg" alt="Chickpeas" style="width:100%">
+                    <h4>Chickpeas</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column candies">
+                <div class="content">
+                    <img src="Products/6-Candies/2-Sugar-Coated-Chickpeas.jpg" alt="Sugar-Coated-Chickpeas" style="width:100%">
+                    <h4>Sugar Coated Chickpeas</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <div class="column candies">
+                <div class="content">
+                    <img src="Products/6-Candies/3-Almond-Sugar-Coated.jpg" alt="Almond-Sugar-Coated" style="width:100%">
+                    <h4>Almond Sugar Coated</h4>
+                    <button class="button-small" onclick="document.location='#'">Add to cart</button>
+                </div>
+            </div>
+            <!-- END GRID -->
+        </div>
+    </section>
+    <div class="page-bottom">
+        <footer>
+            <div class='fc-container'>
+                <img src="images/Coffee_cup_icon.svg" alt="Cofee cup image">
+                <span class="footer-copyright">&copy; Ottawa Coffee. All Rights Reserved.</span>
+            </div>
+            <img class="mid-logo" src="images/mid-logo1.png">
+            <div class="footer-links">
+                <span class="footer-contact">Share Your Experience With Us</span>
+                <span class="footer-contact-separator"> | </span>
+                <div class="fa-container">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="photos.js"></script>
+</body>
+
+</html>

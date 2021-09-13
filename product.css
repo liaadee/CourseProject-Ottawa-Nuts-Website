@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  border-radius: 25px;
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #936037;
+  color: white;
+  cursor: pointer;
+  font-size: 10pt;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #502b1f;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #502b1f;
+  color: #e36b00;
+  font-weight: bold;
+}
+
+#myBtnContainer{
+  text-align: center;
+}
+
+################
+/* Button used to open the contact form */
+.open-button {
+  background-color: #f1f1f1;
+  color: #f1f1f1;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+/* Add styles to the form container */
+.form-container {
+  max-width: 400px;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+/* red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+#revsec {
+  margin: auto;
+  width: 70%;
+  height: 350px;
+  border-bottom: solid 1px;
+  font-size: 24px;
+}
+#rname{
+  color: #936037;
+}
+#review{
+  color : grey;
+}
+
+  /* *Style "Buy Now"/"Leave a Review" buttons */
+  .button-small {
+    background: none;
+    border: solid 2px #474544;
+    color: #474544;
+    font-weight: bold;
+  }
+  .button-small:hover {
+    background: #502b1f;
+    color: #f2f3eb;
+  }

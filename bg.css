@@ -1,0 +1,36 @@
+
+/*Only at about page*/
+body {
+    background-image: url('images/About-us.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+section{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 5%;
+    padding: 50px;
+    width: 40%;
+}
+
+h1{
+    font-size: 26pt;
+    text-align: center;
+    font-weight: bolder;
+    color: #e36b00;
+    text-shadow: 1px 1px 1px #502b1f;
+    margin-bottom: 100px;
+}
+
+h2{
+    font-size: 18pt;
+    font-weight: bold;
+    color: #502b1f;
+    text-shadow: 1px 1px 1px #936037;
+}   
+
+p{
+    text-indent: 35px;
+    text-align: justify;
+}
