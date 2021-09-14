@@ -9,8 +9,8 @@ This project demonstrates the application of the following skills/concepts taugh
   - Design principles for an attractive UI
   - Creation of and adherence to a Style Guide for style consistency
 
-![website home page screenshot](https://github.com/liaadee/CourseProject-Website-OttawaCoffee/blob/master/screenshots/1.PNG)
+![website home page screenshot](https://github.com/liaadee/CourseWork-Website-OttawaCoffee/blob/master/screenshots/1.PNG)
 
-![website products page screenshot](https://github.com/liaadee/CourseProject-Website-OttawaCoffee/blob/master/screenshots/2.PNG)
+![website products page screenshot](https://github.com/liaadee/CourseWork-Website-OttawaCoffee/blob/master/screenshots/2.PNG)
 
-![website contact form screenshot](https://github.com/liaadee/CourseProject-Website-OttawaCoffee/blob/master/screenshots/3.PNG)
+![website contact form screenshot](https://github.com/liaadee/CourseWork-Website-OttawaCoffee/blob/master/screenshots/3.PNG)
