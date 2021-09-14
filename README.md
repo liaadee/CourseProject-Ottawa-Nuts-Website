@@ -1,14 +1,16 @@
-<p>This is the final project for CST8117 Cross-Platform Web Design.</p>
-<br>
 
-![home page](https://github.com/liaadee/CourseProject-Ottawa-Nuts-Website/blob/master/screenshots/1.PNG)
+#### College Course Collaborative Project: Business Website
 
-<p>The website is created for the local fictional shop which specialize in bulk sales of nuts, coffie and confectionary.</p>
+*The website is created for a fictional shop specialising in roasted nuts, coffee, and confections.*
 
-![sales page](https://github.com/liaadee/CourseProject-Ottawa-Nuts-Website/blob/master/screenshots/2.PNG)
+This project demonstrates the application of the following skills/concepts taught in an introductory web design course:  
+  - **HTML/CSS** for creating and styling common website components such as navigation bars, headers, footers, and submission forms
+  - **JavaScript** for dynamically displaying content, and front-end validation
+  - Design principles for an attractive UI
+  - Creation of and adherence to a Style Guide for style consistency
 
-The website uses HTML, CSS and Javascript to show the content. The project utilizes components learnt in the course such as: submission form, validation, flex containers, style guidlines, navigation bar and a footer.
+![website home page screenshot](https://github.com/liaadee/CourseProject-Website-OttawaCoffee/blob/master/screenshots/1.PNG)
 
-![contatct form](https://github.com/liaadee/CourseProject-Ottawa-Nuts-Website/blob/master/screenshots/3.PNG)
+![website products page screenshot](https://github.com/liaadee/CourseProject-Website-OttawaCoffee/blob/master/screenshots/2.PNG)
 
-
+![website contact form screenshot](https://github.com/liaadee/CourseProject-Website-OttawaCoffee/blob/master/screenshots/3.PNG)
